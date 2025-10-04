@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box; 
 }
-.hi{
+hi{
   margin: 0;
 }
-.p{
+p{
   margin: 0;
 }
-.body{
+body{
   margin: 0;
 }
 p,a{
@@ -43,11 +43,11 @@ h2::before{
   content:"●";
   color: rgb(239, 111, 139);
 }
-p>span{
+.contents p:nth-of-type(2)::first-letter {
     font-weight: bold;
-    color: rgb(97, 206, 249)
+    color: rgb(97, 206, 249);
 }
-main img{
+.contents img{
   margin: 10px 0px 10px 0px;
   width: 70%;
 }
@@ -74,8 +74,5 @@ a:hover {
   }
   p{
     font-size: 25px;
-  }
-  img{
-    width: 300px;
   }
 }
